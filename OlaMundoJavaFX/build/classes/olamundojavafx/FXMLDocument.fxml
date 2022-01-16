@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="btn" prefHeight="220.0" prefWidth="454.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="olamundojavafx.FXMLDocumentController">
+    <children>
+      <Button fx:id="btnClique" layoutX="85.0" layoutY="137.0" mnemonicParsing="false" onAction="#clicouBotao" text="Clique para gerar uma mensagem!" textAlignment="JUSTIFY" textFill="#a42e2e">
+         <font>
+            <Font name="Courier New" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblMensagem" layoutX="38.0" layoutY="59.0" text="A mensagem aparecerá aqui!" textAlignment="JUSTIFY" textFill="#d00d0d">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
